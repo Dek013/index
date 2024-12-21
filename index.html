@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinder</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <h1 class="logo">Pinder</h1>
+
+                <nav>
+                    <a href="#about">О приложении</a>
+                    <a href="#features">Возможности</a>
+                    <a href="#help">Помощь</a>
+                </nav>
+                <button class="register-btn">Регистрация</button>
+                <div id="menu-toggle" class="burger">
+                    <div class="burger-line"></div>
+                    <div class="burger-line"></div>
+                    <div class="burger-line"></div>
+                </div>
+            </div>
+        </header>
+            <div id="menu" class="overlay-menu">
+                <div class="menu-content">
+                    <div id="close-menu" class="close">
+                        <div class="close-line"></div>
+                        <div class="close-line"></div>
+                    </div>
+                    <nav>
+                        <a href="#about">О приложении</a>
+                        <a href="#features">Возможности</a>
+                        <a href="#help">Помощь</a>
+                    </nav>
+                    <button class="register-btn">Регистрация</button>
+                </div>
+            </div>
+        <main>
+            <section class="hero">
+                <div class="hero-text">
+                    <h2></h2>
+                    <p></p>
+                    <button class="register-btn">Регистрация</button>
+                </div>
+                <img src="img/1.png" alt="Изображение животных">
+            </section>
+            <section class="about" id="about">
+                <div class="about-text">
+                    <h3>О приложении</h3>
+                    <div class="line"></div>
+                    <div class="about-content">
+                        <img src="img/2.png" alt="Изображение приложения">
+                        <p></p>
+                    </div>
+                </div>
+            </section>
+            <section class="features" id="features">
+                <h3>Возможности</h3>
+                <div class="line"></div>
+                <div class="features-content">
+                    <div class="feature">
+                        <img src="img/иконка_1.png" alt="Иконка 1" class="icon">
+                        <p></p>
+                    </div>
+                    <div class="feature_2">
+                        <img src="img/иконка_2.png" alt="Иконка 2" class="icon">
+                        <p></p>
+                    </div>
+                    <div class="feature_3">
+                        <img src="img/иконка_3.png" alt="Иконка 3" class="icon">
+                        <p></p>
+                    </div>
+                </div>
+            </section>
+            <section class="paws">
+                <img src="img/лапка.png" alt="Лапка 1" class="paw paw1" data-delay="0.9">
+                <img src="img/лапка.png" alt="Лапка 2" class="paw paw2" data-delay="0.6">
+                <img src="img/лапка.png" alt="Лапка 3" class="paw paw3" data-delay="0.3">
+                <img src="img/лапка.png" alt="Лапка 4" class="paw paw4" data-delay="0">
+            </section>
+            <section class="help" id="help">
+                <h3>Кому вы можете помочь</h3>
+                <div class="line"></div>
+                <div class="help-content gallery__img">
+                    <!-- Первая фотография (Эшли) -->
+                    <div class="help-item help-item_1">
+                        <img src="img/ashley.jpg" alt="Эшли">
+                        <div class="overlay ">
+                            <h4>Эшли</h4>
+                            <p></p>
+                        </div>
+                        <div class="text-content">      
+                            <h4>Эшли</h4>
+                            <p></p>
+                        </div>
+                    </div>
+                    <!-- Вторая фотография (Шерри) -->
+                    <div class="help-item help-item_2">
+                        <img src="img/sherry.jpg" alt="Шерри">
+                        <div class="overlay ">
+                            <h4>Шерри</h4>
+                            <p></p>
+                        </div>
+                        <div class="text-content">
+                            <h4>Шерри</h4>
+                            <p></p>
+                        </div>
+
+                    </div>
+                    <!-- Третья фотография (Адис) -->
+                    <div class="help-item help-item_3">
+                        <img src="img/adiss.jpg" alt="Адис">
+                        <div class="overlay ">
+                            <h4>Адис</h4>
+                            <p></p>
+                        </div>
+                        <div class="text-content">
+                            <h4>Адис</h4>
+                            <p></p>
+                        </div>
+                    </div>
+                    <!-- Четвертая фотография (Лия) -->
+                    <div class="help-item help-item_4">
+                        <img src="img/lia.jpg" alt="Лия">
+                        <div class="overlay ">
+                            <h4>Лия</h4>
+                            <p></p>
+                        </div>
+                        <div class="text-content">
+                            <h4>Лия</h4>
+                            <p></p>
+                        </div>
+                    </div>
+                    <!-- Пятая фотография (Эмилия) -->
+                    <div class="help-item help-item_5">
+                        <img src="img/emilia.jpg" alt="Эмилия">
+                        <div class="overlay ">
+                            <h4>Эмилия</h4>
+                            <p></p>
+                        </div>
+                        <div class="text-content">
+                            <h4>Эмилия</h4>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="join-us">
+                <div class="join-us-text">
+                    <h3>Присоединяйся к нам!</h3>
+                    <div class="line"></div>
+                </div>
+                <img src="img/МАКАП.png" alt="Изображение" class="join-us-image">
+                <button class="register-btn">Регистрация</button>
+            </section>
+            <section class="paws_2">
+                <img src="img/лапка.png" alt="Лапка 5" class="paw paw5" data-delay="2.1">
+                <img src="img/лапка.png" alt="Лапка 6" class="paw paw6" data-delay="1.8">
+                <img src="img/лапка.png" alt="Лапка 7" class="paw paw7" data-delay="1.5">
+                <img src="img/лапка.png" alt="Лапка 8" class="paw paw8" data-delay="1.2">
+                <img src="img/лапка.png" alt="Лапка 9" class="paw paw9" data-delay="0.9">
+                <img src="img/лапка.png" alt="Лапка 10" class="paw paw10" data-delay="0.6">
+                <img src="img/лапка.png" alt="Лапка 11" class="paw paw11" data-delay="0.3">
+                <img src="img/лапка.png" alt="Лапка 12" class="paw paw12" data-delay="0">
+            </section>
+            <section class="Prut-us">
+            <div >
+                <div class="Prut">
+                    <h3>Ближайшие приюты</h3>
+                    <div class="line"></div>
+                </div>
+                <div class="outer-rectangle">
+                    <div class="map-container">
+                        <div id="map"></div>
+                    </div>
+                </div>
+            </div>
+
+            </section>
+        </main>
+        <footer>
+            <div class="footer-content">
+                <div class="footer-logo">Pinder</div>
+                <div class="footer-text">
+                    <div class="footer-contact">
+                        <img src="img/ickn_mail.png" alt="Email Icon" class="footer-icon">
+                        <span>pinder@p.com</span>
+                    </div>
+                    <div class="footer-contact">
+                        <img src="img/icon_phone.png" alt="Phone Icon" class="footer-icon">
+                        <span>+12345678907</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2024 deko and babynomoneyo</p>
+            </div>
+        </footer>
+
+    </div>
+    <script src="JS/scripts.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+
+</body>
+</html>
